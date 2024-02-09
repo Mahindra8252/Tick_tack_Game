@@ -40,7 +40,7 @@ boxes.forEach((box)=>{
          checkWinner();
          
          if(count>=9){
-            msg.innerText="Match is Drow";
+            msg.innerText="Match is Draw";
             msgContainer.classList.remove("hide");
             disabledBox();
         }
